@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ ! -d python-beginners]
+git clone https://github.com/OpenTechSchool/python-beginners.git
+cd python-beginners
+git checkout gh-pages
