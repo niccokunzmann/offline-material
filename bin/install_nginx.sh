@@ -11,7 +11,7 @@ then
 fi
 
 
-conf_path=`dirname $0`/offline-material-nginx.conf
+conf_path=$files_folder/offline-material-nginx.conf
 conf_path=`realpath $conf_path`
 conf_linkpath='/etc/nginx/sites-enabled/offline-material'
 
