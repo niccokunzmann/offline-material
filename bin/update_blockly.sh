@@ -15,7 +15,7 @@ mkdir -p blockly-games
 
 for zip_file in blockly-games-repo/generated/*.zip
 do
-  unzip $zip_file
+  unzip -z $zip_file
   rm -f blockly-games/index.html
 done
 
