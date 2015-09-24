@@ -1,6 +1,10 @@
 #!/bin/bash
 
 cd `dirname $0`
+
+bin_folder=`pwd`
+files_folder=$bin_folder/files
+
 mkdir -p ../tutorials
 PATH=`pwd`:$PATH
 cd ../tutorials/
