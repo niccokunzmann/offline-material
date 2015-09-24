@@ -11,7 +11,7 @@ then
   rm -rf /tmp/repo || { echo "error /tmp/repo exists"; exit 1; }  
   mkdir -p /tmp/repo
   cd /tmp/repo
-  git clone $url || exit 2
+  git clone --depth=1 --branch $branch $url || exit 2
   mv /tmp/repo/* $location/$name || exit 3
 fi
 
