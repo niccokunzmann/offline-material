@@ -12,3 +12,5 @@ rm -rf _site/*
 
 jekyll build
 
+cp $files_folder/tutorials_index.html ../index.html
+
