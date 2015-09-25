@@ -6,6 +6,7 @@ bin_folder=`pwd`
 files_folder=$bin_folder/files
 
 mkdir -p ../tutorials
+mkdir -p ../downloads
 PATH=`pwd`:$PATH
 cd ../tutorials/
 
